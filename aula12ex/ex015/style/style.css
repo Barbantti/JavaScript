@@ -1,26 +1,36 @@
 @charset "UTF-8";
 
 body {
-    background: rgba(56, 56, 250, 0.678)
-    ;
+    background: rgba(177, 171, 223, 0.600);
+    color: white;
     font: normal 15pt arial;
 }
 
 header {
-    color: white;
     text-align: center;
 }
 
 section {
     background: white;
+    color: black;
+    font-size: .9em;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.408);
 }
 
-div, img {
+div#botton {
+    padding: 10px;
+    line-height: 25px;
+}
+
+div#res {
+    text-align: center;
+}
+
+img {
     border-radius: 100%;
     padding: 8px;
     text-align: center;
@@ -32,3 +42,4 @@ footer {
     font-style: italic;
     font-size: .9em;
 }
+

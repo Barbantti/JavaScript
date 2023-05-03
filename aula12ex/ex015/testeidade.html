@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a sua idade?</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico"
+     type="image/x-icon">
+     <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div id="botton">
+            <p>
+                Ano de nascimento: 
+                <input type="text" name="txtano" id="txtano" placeholder="digite o ano em que voce nasceu" min="0" max="4">
+            </p>
+            <p>
+                Sexo: Masculino 
+                <input type="radio" name="radsex" id="mas" checked> Feminino 
+                <input type="radio" name="radsex" id="fem">
+            </p>
+            <p> 
+                <input type="submit" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <strong>Leonardo Barbanti</strong></p>
+    </footer>
+    <script src="testeidade.js"></script>
+</body>
+</html>
