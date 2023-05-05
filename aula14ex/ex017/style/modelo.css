@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background: rgba(56, 56, 250, 0.829)
-    ;
+    background-image: linear-gradient(to top, #6CC5C6, #6cc4c6);
     font: normal 15pt arial;
 }
 
@@ -14,10 +13,19 @@ header {
 section {
     background: white;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     width: 500px;
+    height: auto;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+}
+
+div#res {
+    height: auto;
+    margin: auto;
+    text-align: left;
+    overflow: hidden;
+    min-height: 10px;
 }
 
 footer {
