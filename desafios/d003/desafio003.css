@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: lightcyan;
+    font: 18px arial;
+}
+
+header {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+button#btn {
+    height: 60px;
+	width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    border-radius: 10px;
+    border-color: lightcyan;
+    box-shadow: 1px 1px 1px 1px lightcyan;
+}
